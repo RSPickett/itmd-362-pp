@@ -65,6 +65,9 @@ screenshot, then copy it to this directory (`pp-02`) and add and commit it to th
 Then, also list here the keyboard commands to switch between your different virtual desktops (on
 some operating systems, you might be able to customize the shortcuts to your own liking):
 
+Switch between workspaces: Shift + Ctrl + Alt and the arrow keys
+Move between workspaces on the overview: Ctrl + Alt and the arrow keys
+
 
 4. Set up a distraction-free browser.
 
