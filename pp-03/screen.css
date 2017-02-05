@@ -193,11 +193,14 @@ html {
   color: black;
 }
 
+h1 {
+  font-size: 1.25em; /* 30px */
+}
+
 /*  Form Styles */
 label,
 input {
   box-sizing: border-box;
   width: 100%;
   display: block;
-  color: black;
 }
