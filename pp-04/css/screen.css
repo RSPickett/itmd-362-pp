@@ -200,11 +200,25 @@ html {
   color: #b3b3b3;
 }
 
+h1, p {
+  padding-bottom: 1.182em; /* 26px / ~ 120% */
+}
+
 label {
   display: block;
 }
 
+label,
+input {
+  display: inline-block;
+}
+
+body {
+  border: none;
+}
+
 /* ===== LAYOUT STYLES ====== */
+
 
 /* ===== MODULAR STYLES ===== */
 
