@@ -187,7 +187,7 @@ img, audio, video {
 /* ===== BASE STYLES ===== */
 
 /*
-  Major Sixth Modular Scale:
+  Major Sixth Modular Scale:0
   http://www.modularscale.com/?22&px&1.667&web&text
 */
 
@@ -208,19 +208,45 @@ label {
   display: block;
 }
 
-label,
 input {
-  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 1.182em;
+  border: 0;
+  border-radius: 0;
+  font-size: inherit;
+  line-height: inherit;
+  font-family: inherit;
 }
 
-body {
-  border: none;
+input[type="checkbox"] + label {
+  display: inline;
 }
+
+input[type="checkbox"] {
+  width: auto;
+  float: left;
+
+}
+
 
 /* ===== LAYOUT STYLES ====== */
-
+form li {
+  padding-bottom: 1.182em;
+}
 
 /* ===== MODULAR STYLES ===== */
 
 /* ===== STATE STYLES ======= */
+.hasjs #input-email {
+  position: relative;
+}
 
+.hasjs #input-email label {
+  top: 1.182em;
+  position: absolute;
+}
+
+input[type="submit"]:hover {
+  background-color: red;
+}
