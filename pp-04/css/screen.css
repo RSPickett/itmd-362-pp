@@ -192,7 +192,7 @@ img, audio, video {
 */
 
 html {
-  font-family: Tahoma, Verdana, Segoe, sans-serif;
+  font-family:  Capriola, Andika, Sansita, Lato, Tahoma, Verdana, Segoe, sans-serif;
   font-size: 1.375em; /* 22px */
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
@@ -261,6 +261,6 @@ form li {
   color: #b3b3b3;
 }
 
-input[type="submit"]:hover {
+/*input[type="submit"]:hover {
   background-color: red;
-}
+}*/
