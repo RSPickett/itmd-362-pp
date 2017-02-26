@@ -5,4 +5,7 @@ $.noConflict();
 jQuery(function($) {
   $('html').removeClass('nojs');
   $('html').addClass('hasjs');
+  $('#email').on('focus', function() {
+    $('#input-email label').addClass('active')
+  })
 });
