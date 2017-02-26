@@ -80,7 +80,7 @@ button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText;
+  outline: 1px dotted buttontext;
 }
 
 /**
@@ -192,6 +192,7 @@ img, audio, video {
 */
 
 html {
+  font-family: Tahoma, Verdana, Segoe, sans-serif;
   font-size: 1.375em; /* 22px */
   line-height: 1.182em; /* 26px / ~ 120% */
   padding: 1.182em; /* 26px / ~ 120% */
@@ -217,25 +218,32 @@ input {
   font-size: inherit;
   line-height: inherit;
   font-family: inherit;
+  background-color: #cccccc;
+}
+
+input[type="email"] {
+  padding-bottom: 1.182em; /* 26px / ~ 120% */
+}
+
+input[type="checkbox"] {
+  width: auto;
+  height: auto;
+  float: left;
 }
 
 input[type="checkbox"] + label {
   display: inline;
 }
 
-input[type="checkbox"] {
-  width: auto;
-  float: left;
-
+#email-label {
+  color: #404040;
 }
-
-
 /* ===== LAYOUT STYLES ====== */
+
+/* ===== MODULAR STYLES ===== */
 form li {
   padding-bottom: 1.182em;
 }
-
-/* ===== MODULAR STYLES ===== */
 
 /* ===== STATE STYLES ======= */
 .hasjs #input-email {
@@ -243,8 +251,14 @@ form li {
 }
 
 .hasjs #input-email label {
+  transition: top 1s;
   top: 1.182em;
   position: absolute;
+}
+
+.hasjs #input-email label.active {
+  top: -1.182em;
+  color: #b3b3b3;
 }
 
 input[type="submit"]:hover {
