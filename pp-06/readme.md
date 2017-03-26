@@ -34,3 +34,4 @@ Write the output of `git remote -v` from your copy of the forked repository here
 8. From within your fork of the repository on GitHub, open up a pull request. Each group member should review the request before it is merged, and then pull from the group repository to have a complete, up-to-date `README.md` file.
 
 Write the URL of your pull request here:
+  git@github.com:DDC-itmd362/Project2.git
