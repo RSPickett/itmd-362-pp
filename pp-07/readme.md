@@ -31,6 +31,8 @@ Small commits to your Production Problems repository that include:
 
   The principle is:  Give your application a clear focus
 
+  How it applies:  The screen is pretty basic and paired down to only the elements needed to logon and
+    to a header that identifies what your logging on to.
 
 
 * HCI Guidline Two (URL):
