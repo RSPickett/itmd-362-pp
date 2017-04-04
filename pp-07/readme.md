@@ -35,8 +35,17 @@ Small commits to your Production Problems repository that include:
     to a header that identifies what your logging on to.
 
 
-* HCI Guidline Two (URL):
+* HCI Guidline Two (URL):  https://developer.gnome.org/hig/stable/design-principles.html.en
 * How you implemented it in your sketch:
 
-* HCI Guidline Three (URL):
+  The principle is:  Keep user interface complexity to a minimum.
+
+  How it applies:  Three elements.  And if we fly in the submit button it would start with only two.
+    And all the elements are essential.
+
+* HCI Guidline Three (URL):  https://developer.gnome.org/hig/stable/design-principles.html.en
 * How you implemented it in your sketch:
+
+  The principle is:  Require as little work from the user as possible.
+
+  How it applies:  Again, Three elements.  All are essential.
