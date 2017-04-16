@@ -8,15 +8,15 @@ Usability checklists are typical, and sometimes mindless, tools/magic tricks use
 
 * URLs for the usability checklists you've found:
 
-1.
-2.
+1.  https://alistapart.com/article/sensibleforms
+2.  https://internetdevels.com/blog/50-point-checklist-for-website-usability-testing
 
 * Your own condensed, ten-item must-have usability checklist:
 
-1.
-2.
-3.
-4.
+1.  Use informative error messages
+2.  Have short simple forms
+3.  Everything should be important (if not, then optional)
+4.  Let the user know where they are on the web site
 5.
 6.
 7.
