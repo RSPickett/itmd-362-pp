@@ -13,13 +13,13 @@ Usability checklists are typical, and sometimes mindless, tools/magic tricks use
 
 * Your own condensed, ten-item must-have usability checklist:
 
-1.  Use informative error messages
-2.  Have short simple forms
-3.  Everything should be important (if not, then optional)
-4.  Let the user know where they are on the web site
-5.
-6.
-7.
+1.  Use informative error messages.
+2.  Have short simple forms.
+3.  Everything should be important (if not, then optional).
+4.  Let the user know where they are on the web site.
+5.  Size the buttons and fields appropriately.
+6.  Let the computer handle formatting.
+7.  Group related information together.
 8.
 9.
 10.
