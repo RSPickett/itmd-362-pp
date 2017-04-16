@@ -20,6 +20,6 @@ Usability checklists are typical, and sometimes mindless, tools/magic tricks use
 5.  Size the buttons and fields appropriately.
 6.  Let the computer handle formatting.
 7.  Group related information together.
-8.
-9.
-10.
+8.  Keep the navigation simple.
+9.  Have a search function.
+10. Provide descriptions with images.
